@@ -10,7 +10,7 @@ sudo apt-get install default-jdk -y
 ```
 ### Récupération de la clé
 ```
-wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add –
+sudo wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add –
 ```
 
 ### Ajout du répository Jenkins dans le système
