@@ -6,7 +6,7 @@ Jenkins est un outil open source d'intégration continue, fork de l'outil Hudson
 ### Il est recommandé d'installer Java avant d'installer Jenkins
 
 ```
-sudo apt-get install default-jdk
+sudo apt-get install default-jdk -y
 ```
 ### Récupération de la clé
 ```
