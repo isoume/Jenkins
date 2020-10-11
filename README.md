@@ -15,7 +15,9 @@ wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key 
 
 ### Ajout du répository Jenkins dans le système
 ```
+<span style="color: green">
 sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+</span>
 ```
 
 ### Mettre à jour la base de données des paquets
@@ -58,6 +60,6 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 * Si tout est bien passé, vous n'avez qu'à ouvrir votre navigateur avec le port 8080
 * Si vous l'avez installé en local, utilisez cette adresse 127.0.0.1:8080
 * Si vous l'avez installé dans une machine virtuelle, utilisez l'adresse publique avec le port ci-dessus
-** N'oubliez pas le groupe de sécurité si vous utilisez une machine virtuelle dans le cloud (exemple AWS : Security group)
+* N'oubliez pas le groupe de sécurité si vous utilisez une machine virtuelle dans le cloud (exemple AWS : Security group)
 
 
